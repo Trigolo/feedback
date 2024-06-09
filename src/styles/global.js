@@ -6,5 +6,20 @@ export const GlobalStyle = createGlobalStyle`
         margin: 0;
         paddin: 0;
         box-sizing: border-box;
+        font-family: "Overpass", sans-serif;
+    }
+
+    :root{
+        font-size: 62.5%;
+    }
+
+    body{
+        font-size:1.6rem;
+        background: ${props => props.theme.homeBackground};
+
+        height:100svh;
+        display: flex;
+        justify-content: center;
+        aling-items: center;
     }
 `
