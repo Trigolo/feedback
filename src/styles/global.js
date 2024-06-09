@@ -20,6 +20,6 @@ export const GlobalStyle = createGlobalStyle`
         height:100svh;
         display: flex;
         justify-content: center;
-        aling-items: center;
+        align-items: center;
     }
 `
